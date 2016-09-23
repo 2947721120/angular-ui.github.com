@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html id="top" lang="en" ng-app="demo">
     <head>
-        <title>AngularUI for AngularJS</title>
+        <title>AngularUI 对于 AngularJS</title>
 
         <link href="logo/UI_Shield.png" rel="shortcut icon">
 
@@ -15,7 +15,7 @@
             <div class="navbar-inner">
                 <div class="container">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="http://angular-ui.github.io/">AngularUI</a>
+                        <a class="navbar-brand" href="https://2947721120.github.io/angular-ui.github.com/">AngularUI</a>
                     </div>
 
                     <div class="container">
@@ -49,7 +49,7 @@
                     <div class="col-sm-7">
                         <h1>AngularUI</h1>
 
-                        <p>The companion suite(s) to the <a href="http://angularjs.org">AngularJS</a> framework.</p>
+                        <p>同伴套件（S）的<a href="http://angularjs.org">AngularJS</a> 框架.</p>
                     </div>
                 </div>
 
@@ -70,10 +70,10 @@
                             </li>
 
                             <li>
-                                <!-- Place this tag where you want the +1 button to render. -->
+                                <!--将此标记放到您想要的+1按钮呈现. -->
 
-                                <div class="g-plusone" data-size="medium"></div><!-- Place this tag after the last +1 button tag. -->
-                                <!-- Place this tag after the last +1 button tag. -->
+                                <div class="g-plusone" data-size="medium"></div><!-- 把这个变量在最后一个+1按钮标记之后. -->
+                                <!-- 把这个变量在最后一个+1按钮标记之后. -->
                                 <script type="text/javascript">
                                             (function() {
                                                 var po = document.createElement('script');
@@ -101,7 +101,7 @@
                     <div class="list-group">
                         <div ng-repeat="module in modules| filter:searchText | orderBy: 'name'" href="{{module.src}}" class="list-group-item">
                             <p class="pull-right">
-                                <a href="{{module.home}}" title="Home / Demo page" ng-if="module.home"><i class="fa fa-3x fa-home"></i></a>
+                                <a href="{{module.home}}" title="主页/演示页" ng-if="module.home"><i class="fa fa-3x fa-home"></i></a>
                                 <a href="{{module.src}}" title="Code"><i class="fa fa-3x fa-github"></i></a>
                             </p>
                             <h4 class="list-group-item-heading">{{module.name}}</h4>
